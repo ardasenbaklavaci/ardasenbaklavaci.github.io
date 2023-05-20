@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Wing
+  - checkpoint
+  - agent
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - TrainingCheckpoints
   - Water
   - UI
   - 

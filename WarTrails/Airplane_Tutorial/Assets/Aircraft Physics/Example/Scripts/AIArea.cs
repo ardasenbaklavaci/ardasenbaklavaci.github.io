@@ -7,7 +7,7 @@ using Cinemachine;
 public class AIArea : MonoBehaviour
 {
     [Tooltip("The path the race will take")]
-    public CinemachineSmoothPath racePath;
+    public CinemachineSmoothPath Track;
 
     [Tooltip("The prefab to use for checkpoints")]
     public GameObject checkpointPrefab;
@@ -16,7 +16,7 @@ public class AIArea : MonoBehaviour
     public GameObject finishPrefab;
 
     [Tooltip("If true enable training mode")]
-    public bool trainingMode = false;
+    public bool trainingMode = true;
 
     public List<AIAgents> AIAgents { get; private set; }
 
@@ -31,7 +31,7 @@ public class AIArea : MonoBehaviour
 
     private void Start()
     {
-
+        
     }
     /// <summary>
     /// Find Aircraft Agents in the Area
@@ -41,8 +41,10 @@ public class AIArea : MonoBehaviour
     {
         AIAgents = transform.GetComponentsInChildren<AIAgents>().ToList();
         // debug:
-        Debug.Assert(AIAgents.Count > 0, "No AircraftAgents in List");
+        //Debug.Assert(AIAgents.Count > 0, "No AircraftAgents in List");
         Debug.Log("Found " + AIAgents.Count.ToString() + " agents");
+
+        //Debug.LogError("Aircraft Agents Count: " + AIAgents.Count.ToString());
     }
 
     /// <summary>
@@ -51,9 +53,9 @@ public class AIArea : MonoBehaviour
     private void CreateCheckpoints()
     {
         //Create checkpoints along the path
-        Debug.Assert(racePath != null, "Race Path was not set");
+        Debug.Assert(Track != null, "Race Path was not set");
         Checkpoints = new List<GameObject>();
-        int numCheckpoints = (int)racePath.MaxUnit(CinemachinePathBase.PositionUnits.PathUnits);
+        int numCheckpoints = (int)Track.MaxUnit(CinemachinePathBase.PositionUnits.PathUnits);
         for (int i = 0; i < numCheckpoints; i++)
         {
             GameObject checkpoint;
@@ -62,12 +64,15 @@ public class AIArea : MonoBehaviour
             else
                 checkpoint = Instantiate<GameObject>(checkpointPrefab);
             //Set position, parent and rotation
-            checkpoint.transform.SetParent(racePath.transform);
-            checkpoint.transform.localPosition = racePath.m_Waypoints[i].position;
-            checkpoint.transform.rotation = racePath.EvaluateOrientationAtUnit(i, CinemachinePathBase.PositionUnits.PathUnits);
+            checkpoint.transform.SetParent(Track.transform);
+            checkpoint.transform.localPosition = Track.m_Waypoints[i].position;
+            checkpoint.transform.rotation = Track.EvaluateOrientationAtUnit(i, CinemachinePathBase.PositionUnits.PathUnits);
 
             Checkpoints.Add(checkpoint);
+
+            //Debug.Log("Checkpoint added");
         }
+
     }
 
     /// <summary>
@@ -75,25 +80,36 @@ public class AIArea : MonoBehaviour
     /// </summary>
     /// <param name="agent">The agent to reset</param>
     /// <param name="randomized">If true, will pick a new NextCheckpointIndex before reset</param>        
-    public void ResetAgentPosition(AIAgents agent, bool randomized = true)
+    public void ResetAgentPosition(AIAgents agent, bool randomized = false)
     {
         if (AIAgents == null) FindAircraftAgents();
-        if (randomized)
-        {
-            agent.NextCheckpointIndex = Random.Range(0, Checkpoints.Count);
-        }
-        int previousCheckpointIndex = agent.NextCheckpointIndex - 1;
-        if (previousCheckpointIndex < 0)
-            previousCheckpointIndex = Checkpoints.Count - 1;
 
-        float startPosition = racePath.FromPathNativeUnits(previousCheckpointIndex, CinemachinePathBase.PositionUnits.PathUnits);
+        int previousCheckpointIndex = 0;
+        
+        //if (randomized)
+        //{
+        //    agent.NextCheckpointIndex = Random.Range(0, Checkpoints.Count);
+        //}
 
-        Vector3 basePosition = racePath.EvaluatePosition(startPosition);
-        Quaternion orientation = racePath.EvaluateOrientation(startPosition);
+
+        //previousCheckpointIndex = agent.NextCheckpointIndex - 1;
+        //if (previousCheckpointIndex < 0)
+        //    previousCheckpointIndex = Checkpoints.Count - 1;
+
+        //Debug.Log("Final agent count : " + AIAgents.Count.ToString() + " agents final");
+
+        previousCheckpointIndex = 0;
+
+        float startPosition = Track.FromPathNativeUnits(previousCheckpointIndex, CinemachinePathBase.PositionUnits.PathUnits);
+
+        Vector3 basePosition = Track.EvaluatePosition(startPosition);
+        Quaternion orientation = Track.EvaluateOrientation(startPosition);
         //Calculate a horizontal offset so the agents are spread apart
         Vector3 positionOffset = Vector3.right * (AIAgents.IndexOf(agent) - AIAgents.Count / 2f) * Random.Range(9f, 10f);
-        agent.transform.position = basePosition + orientation * positionOffset;
+        agent.transform.position = basePosition /* + orientation * positionOffset */;
         agent.transform.rotation = orientation;
+
+        
     }
 
 }

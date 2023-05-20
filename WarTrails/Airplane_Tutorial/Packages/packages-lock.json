@@ -55,7 +55,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ide.visualstudio": {
-      "version": "2.0.16",
+      "version": "2.0.18",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -78,7 +78,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ml-agents": {
-      "version": "file:C:/Users/Arda/Downloads/ml-agents-release_7/ml-agents-release_7/com.unity.ml-agents",
+      "version": "file:C:/Users/Arda/Downloads/ml-agents-release_8/ml-agents-release_8/com.unity.ml-agents",
       "depth": 0,
       "source": "local",
       "dependencies": {

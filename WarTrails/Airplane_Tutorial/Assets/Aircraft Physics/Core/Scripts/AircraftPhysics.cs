@@ -14,7 +14,7 @@ public class AircraftPhysics : MonoBehaviour
     [SerializeField]
     List<ControlSurface> controlSurfaces = null;
 
-    Rigidbody rb;
+    public Rigidbody rb;
     float thrustPercent;
     BiVector3 currentForceAndTorque;
 

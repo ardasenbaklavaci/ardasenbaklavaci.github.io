@@ -1,101 +1,56 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-using Unity.MLAgents;
-using Unity.MLAgents.Sensors;
+//using UnityEngine.InputSystem;
 
-public class AI : MonoBehaviour
+public class AI : AIAgents
 {
-    [SerializeField]
-    float rollControlSensitivity = 0.2f;
-    [SerializeField]
-    float pitchControlSensitivity = 0.2f;
-    [SerializeField]
-    float yawControlSensitivity = 0.2f;
-    [SerializeField]
-    float thrustControlSensitivity = 0.01f;
-    [SerializeField]
-    float flapControlSensitivity = 0.15f;
+    float pitchValue = 0;
+    float yawValue = 0;
+    float boostValue = 0;
 
-    float pitch;
-    float yaw;
-    float roll;
-    float flap;
+    //[Header("Input Bindings")]
+    //public InputAction pitchInput;
+    //public InputAction yawInput;
+    //public InputAction boostInput;
+    //public InputAction pauseInput;
 
-    float thrustPercent;
-    bool brake = false;
-
-    AircraftPhysics aircraftPhysics;
-    Rotator propeller;
-
-    private void Start()
+    public override void Initialize()
     {
-        aircraftPhysics = GetComponent<AircraftPhysics>();
-        propeller = FindObjectOfType<Rotator>();
-        SetThrust(100);
+       base.Initialize();
+    //    pitchInput.Enable();
+    //    yawInput.Enable();
+    //    boostInput.Enable();
+    //    pauseInput.Enable();
     }
+    ///// <summary>
+    ///// Clean up
+    ///// </summary>
+    //private void OnDestroy()
+    //{
+    //    pitchInput.Disable();
+    //    yawInput.Disable();
+    //    boostInput.Disable();
+    //    pauseInput.Disable();
+    //}
 
-    private void Update()
-    {
-        /*if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(0);
-        }
+    public override void Heuristic(float[] actionsOut)
+     {
+            //Pitch: 1= up ,0 = none, 2 = down
+            //float pitchValue = Mathf.Round(pitchInput.ReadValue<float>());
+            //float yawValue = Mathf.Round(yawInput.ReadValue<float>());
+            //float boostValue = Mathf.Round(boostInput.ReadValue<float>());
+            //convert -1 (down) to discrete value 2
+            if (pitchValue == -1f) 
+                pitchValue = 2f;
+            if (yawValue == -1f) 
+                yawValue = 2f;
+            actionsOut[0] = pitchValue;
+            actionsOut[1] = yawValue;
+            actionsOut[2] = boostValue;
+            //foreach (object o in actionsOut) Debug.Log(o.ToString());
 
-        if (Input.GetKey(KeyCode.Space))
-        {
-            SetThrust(thrustPercent + thrustControlSensitivity);
-        }
-        propeller.speed = thrustPercent * 1500f;
-
-        if (Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            thrustControlSensitivity *= -1;
-            flapControlSensitivity *= -1;
-        }
-
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            brake = !brake;
-        }
-
-        if (Input.GetKeyDown(KeyCode.LeftControl))
-        {
-            flap += flapControlSensitivity;
-            //clamp
-            flap = Mathf.Clamp(flap, 0f, Mathf.Deg2Rad * 40);
-        }
-
-        pitch = pitchControlSensitivity * Input.GetAxis("Vertical");
-        roll = rollControlSensitivity * Input.GetAxis("Horizontal");
-        yaw = yawControlSensitivity * Input.GetAxis("Yaw");
-
-        */
-
-
-
-        if (transform.localPosition.y > 400)
-        {
-            pitch = 0.01f; SetThrust(65);
-        }
-
+            Debug.Log("Player Heuristic");
     }
-
-    private void SetThrust(float percent)
-    {
-        thrustPercent = Mathf.Clamp01(percent);
-    }
-
-    private void FixedUpdate()
-    {
-        aircraftPhysics.SetControlSurfecesAngles(pitch, roll, yaw, flap);
-        aircraftPhysics.SetThrustPercent(thrustPercent);
-        aircraftPhysics.Brake(brake);
-    }
-
-    
-    
 
 }
