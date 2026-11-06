@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Enthusiast PC Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Enthusiast PC Blog</description>
+    <generator>Hugo</generator>
+    <language>tr</language>
+    <lastBuildDate>Fri, 06 Nov 2026 15:30:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is It Safe to Use Old Power Supplies (PSU) in New Systems?</title>
+      <link>http://localhost:1313/posts/using-old-psu/</link>
+      <pubDate>Fri, 06 Nov 2026 15:30:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/using-old-psu/</guid>
+      <description>&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;!--/wp:heading--&gt;
+&lt;!--wp:paragraph--&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;!--/wp:paragraph--&gt;
+&lt;!--wp:image {&#34;linkDestination&#34;:&#34;custom&#34;}--&gt;
+&lt;figure class=&#34;wp-block-image&#34;&gt;&lt;a href=&#34;https://www.fsplifestyle.com/upload/product/PIC16100000000000250.jpg&#34;&gt;&lt;img alt=&#34;&#34; src=&#34;https://www.fsplifestyle.com/upload/product/PIC16100000000000250.jpg&#34; /&gt;&lt;/a&gt;&lt;/figure&gt;
+&lt;!--/wp:image--&gt;
+&lt;!--wp:html--&gt;
+&lt;div class=&#34;separator&#34; style=&#34;clear: both; text-align: center;&#34;&gt;&lt;/div&gt;
+&lt;!--/wp:html--&gt;
+&lt;!--wp:paragraph--&gt;
+&lt;p&gt;In the world of PC Building, almost all of us have tried or thought using an old part from and old pc while rebuilding or upgrading new one, especially the PSU and Hard Drives (SSD, HDD...). We thought that &#34;Why Not?&#34; if the part works well... Why not save it? Yeah? But is that really a good idea? Let’s discuss using an old PSU from a system that we upgraded or throw away...&amp;nbsp;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Is HDD Still Usable in 2026? Gaming and Storage Status</title>
+      <link>http://localhost:1313/posts/is-hdd-still-usable/</link>
+      <pubDate>Fri, 06 Nov 2026 15:20:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/is-hdd-still-usable/</guid>
+      <description>&lt;h1&gt;HDD vs SSD vs NVMe in 2025: Are Hard Drives Still Worth Using for Gaming &amp;amp; Storage?&lt;/h1&gt;
+&lt;p&gt;In a gaming and computer processing world dominated by blazing fast SATA SSDs and a few times more quicker, ultra fast NVMe drives, we may think that hard disk drives (HDDs) have been left in the past. But still today, there are still some people use it fore some reasons we will explain at this post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>X79 and X99 Chinese Motherboards Guide (AliExpress)</title>
+      <link>http://localhost:1313/posts/chinese-motherboards/</link>
+      <pubDate>Fri, 06 Nov 2026 15:10:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/chinese-motherboards/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Wondering if Machinist or Huananzhi X79/X99 motherboards with Xeon CPUs are still worth buying in 2025? We review gaming and daily performance, pricing, and reliability.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you&#39;ve dug into the PC-building rabbit hole on YouTube or AliExpress, you&#39;ve probably seen cheap motherboard brands like Huananzhi, Machinist, and Jingsha. They don&#39;t just sell the motherboard—these sellers offer bundles with a Xeon CPU, RAM, and even a cooler for a really low price. Chinese brands producing low-cost &lt;strong&gt;X79&lt;/strong&gt; and &lt;strong&gt;X99&lt;/strong&gt; motherboards are often paired with &lt;strong&gt;Xeon CPUs&lt;/strong&gt;. But do these extremely cheap prices signal good quality, or is it really a scam? Can they deliver real performance and stability comparable to a quality PC for gaming, productivity, and daily tasks?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DeepCool AK400 - AMD Ryzen 5 7600x Test</title>
+      <link>http://localhost:1313/posts/deepcool-ak400-ryzen-7600x/</link>
+      <pubDate>Fri, 06 Nov 2026 15:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/deepcool-ak400-ryzen-7600x/</guid>
+      <description>Testing the budget-friendly DeepCool AK400 air cooler with the hot-running AMD Ryzen 5 7600X CPU. Here are the idle and gaming thermal results. Also we have done comparison after doing optimization to the cpu.</description>
+    </item>
+  </channel>
+</rss>
