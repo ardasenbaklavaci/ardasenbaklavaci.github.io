@@ -1,0 +1,29 @@
+.post-content .separator,
+.post-content .tr-caption-container,
+.post-content figure {
+    text-align: center;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.post-content table.tr-caption-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.post-content .separator a,
+.post-content .tr-caption-container a {
+    display: inline-block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+}
+
+.post-content .separator img,
+.post-content .tr-caption-container img,
+.post-content figure img,
+.post-content img {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
