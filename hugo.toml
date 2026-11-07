@@ -1,1 +1,23 @@
-baseURL = "https://github.io"`nlanguageCode = "tr"`ntitle = "Enthusiast PC Blog"`ntheme = "PaperMod"`npaginate = 10`n`n[params]`n  env = "production"`n  title = "Enthusiast PC Blog"`n  description = "Hardware Reviews, Testing and PC Enthusiast Guides"`n  defaultTheme = "dark"`n  showReadingTime = true`n  showShareButtons = true`n  showCodeCopyButtons = true`n`n  [[params.socialIcons]]`n    name = "github"`n    url = "https://github.com"`n`n[markup]`n  [markup.goldmark]`n    [markup.goldmark.renderer]`n      unsafe = true
+﻿baseURL = "https://ardasenbaklavaci.github.io/enthusiast-blog/"
+languageCode = "tr"
+title = "Enthusiast PC Blog"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  env = "production"
+  title = "Enthusiast PC Blog"
+  description = "Hardware Reviews, Testing and PC Enthusiast Guides"
+  defaultTheme = "dark"
+  showReadingTime = true
+  showShareButtons = true
+  showCodeCopyButtons = true
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
