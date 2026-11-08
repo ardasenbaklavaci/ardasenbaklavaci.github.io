@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Enthusiast PC Blog</description>
     <generator>Hugo</generator>
     <language>tr</language>
-    <lastBuildDate>Sun, 08 Nov 2026 00:32:37 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 02:30:00 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/enthusiast-blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is KMSpico a Virus? Risks, Malware and What You Should Know</title>
+      <link>http://localhost:1313/enthusiast-blog/posts/is-kmspico-a-virus/</link>
+      <pubDate>Sun, 08 Nov 2026 02:30:00 +0300</pubDate>
+      <guid>http://localhost:1313/enthusiast-blog/posts/is-kmspico-a-virus/</guid>
+      <description>Is KMSpico a virus? Learn why Windows Defender detects unofficial activation tools, how modified downloads can contain malware, and what security steps to take.</description>
+    </item>
     <item>
       <title>Why You Should Not Buy Fake AirPods</title>
       <link>http://localhost:1313/enthusiast-blog/posts/why-you-should-not-buy-fake-airpods/</link>

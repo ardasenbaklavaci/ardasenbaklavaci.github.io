@@ -2,11 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/enthusiast-blog/categories/</loc>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/enthusiast-blog/</loc>
-    <lastmod>2026-11-08T00:32:37+03:00</lastmod>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/enthusiast-blog/posts/is-kmspico-a-virus/</loc>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/enthusiast-blog/tags/kmspico/</loc>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/enthusiast-blog/tags/malware/</loc>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/enthusiast-blog/posts/</loc>
-    <lastmod>2026-11-08T00:32:37+03:00</lastmod>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/enthusiast-blog/tags/software/</loc>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/enthusiast-blog/categories/software--security/</loc>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/enthusiast-blog/tags/</loc>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/enthusiast-blog/tags/windows-activation/</loc>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/enthusiast-blog/tags/windows-security/</loc>
+    <lastmod>2026-11-08T02:30:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/enthusiast-blog/posts/why-you-should-not-buy-fake-airpods/</loc>
     <lastmod>2026-11-08T00:32:37+03:00</lastmod>
@@ -25,9 +52,5 @@
   </url><url>
     <loc>http://localhost:1313/enthusiast-blog/posts/deepcool-ak400-ryzen-7600x/</loc>
     <lastmod>2026-11-06T15:00:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/enthusiast-blog/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/enthusiast-blog/tags/</loc>
   </url>
 </urlset>
