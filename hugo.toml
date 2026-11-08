@@ -25,4 +25,4 @@ enableRobotsTXT = true
       unsafe = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON", "Sitemap"]
+  home = ["HTML", "RSS", "JSON"]
