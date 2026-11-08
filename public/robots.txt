@@ -1,3 +1,4 @@
 User-agent: *
 Disallow:
+
 Sitemap: https://ardasenbaklavaci.github.io/enthusiast-blog/sitemap.xml
