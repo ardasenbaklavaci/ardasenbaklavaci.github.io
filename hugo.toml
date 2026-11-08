@@ -1,6 +1,6 @@
 ﻿
-baseURL = "https://ardasenbaklavaci.github.io/enthusiast-blog/"
-languageCode = "tr"
+baseURL = "https://ardasenbaklavaci.github.io/"
+locale = "tr"
 title = "Enthusiast PC Blog"
 theme = "PaperMod"
 paginate = 10
@@ -25,4 +25,4 @@ enableRobotsTXT = true
       unsafe = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "Sitemap"]
