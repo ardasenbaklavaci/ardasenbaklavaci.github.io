@@ -1,8 +1,10 @@
-﻿baseURL = "https://ardasenbaklavaci.github.io/enthusiast-blog/"
+﻿
+baseURL = "https://ardasenbaklavaci.github.io/enthusiast-blog/"
 languageCode = "tr"
 title = "Enthusiast PC Blog"
 theme = "PaperMod"
 paginate = 10
+enableRobotsTXT = true
 
 [params]
   env = "production"
