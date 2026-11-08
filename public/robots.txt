@@ -1,3 +1,4 @@
 User-agent: *
 Disallow:
-Sitemap: https://ardasenbaklavaci.github.io/sitemap.xml
+
+Sitemap: https://enthusiast-sitemap.ardasenbakkavaci.workers.dev/sitemap.xml

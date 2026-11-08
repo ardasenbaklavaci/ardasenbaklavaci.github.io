@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://enthusiast-sitemap.ardasenbakkavaci.workers.dev/sitemap.xml
