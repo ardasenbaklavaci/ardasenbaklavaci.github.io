@@ -24,5 +24,16 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       unsafe = true
 
+[mediaTypes]
+  [mediaTypes."application/xml"]
+    suffixes = ["xml"]
+
+[outputFormats.CustomXML]
+  mediaType = "application/xml"
+  baseName = "index"
+  isPlainText = true
+  notAlternative = true
+
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "CustomXML"]
+  section = ["HTML"]
