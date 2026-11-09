@@ -3,7 +3,7 @@ baseURL = "https://ardasenbaklavaci.github.io/"
 locale = "tr"
 title = "Enthusiast PC Blog"
 theme = "PaperMod"
-paginate = 10
+pagination.pagerSize = 10
 enableRobotsTXT = true
 
 [params]
