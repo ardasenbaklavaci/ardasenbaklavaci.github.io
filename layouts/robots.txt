@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ardasenbaklavaci.github.io/sitemap.xml
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
