@@ -7,6 +7,24 @@
 }
 
 .post-content table.tr-caption-container {
+    display: table;
+    width: fit-content;
+    max-width: 100%;
+}
+
+.post-content .tr-caption-container td {
+    text-align: center !important;
+}
+
+.post-content .tr-caption-container td > a {
+    display: block;
+    width: fit-content;
+    max-width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.post-content table.tr-caption-container {
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -24,6 +42,8 @@
 .post-content figure img,
 .post-content img {
     display: block;
+    max-width: 100%;
+    height: auto;
     margin-left: auto !important;
     margin-right: auto !important;
 }
