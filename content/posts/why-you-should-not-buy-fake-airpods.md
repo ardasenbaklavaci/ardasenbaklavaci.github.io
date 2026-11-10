@@ -1,4 +1,5 @@
-﻿+++
++++
+categories = ["Accessories"]
 date = '2026-11-08T00:32:37+03:00'
 draft = false
 title = 'Why You Should Not Buy Fake AirPods'

@@ -1,4 +1,5 @@
 ---
+categories: ["Hardware"]
 title: "X79 and X99 Chinese Motherboards Guide (AliExpress)"
 date: 2026-11-06T15:10:00+03:00
 draft: false

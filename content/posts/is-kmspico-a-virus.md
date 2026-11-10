@@ -1,11 +1,11 @@
 +++
+categories = ["Windows & Software"]
 date = '2026-11-08T02:30:00+03:00'
 draft = false
 title = 'Is KMSpico a Virus? Risks, Malware and What You Should Know'
 description = 'Is KMSpico a virus? Learn why Windows Defender detects unofficial activation tools, how modified downloads can contain malware, and what security steps to take.'
 slug = 'is-kmspico-a-virus'
 tags = ['KMSpico', 'Windows Activation', 'Malware', 'Windows Security', 'Software']
-categories = ['Software & Security']
 
 [cover]
 image = 'images/kmspico.png'
