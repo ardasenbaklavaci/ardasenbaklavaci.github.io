@@ -22,6 +22,7 @@ cover:
 <li><a href="#beyond-x79">Beyond X79/X99: AM4, B85, H81 and More</a></li>
 <li><a href="#cons-risks">Cons and Risks of Chinese Motherboards</a></li>
 <li><a href="#prevent-vrm">How to Prevent VRM Damage</a></li>
+<li><a href="#personal-experience">My Personal Experience with These Chinese Motherboards and Bundles</a></li>
 <li><a href="#verdict">Verdict: Are They Worth It?</a></li>
 <li><a href="#pro-tips">Pro Tips When Buying</a></li>
 </ul>
@@ -327,7 +328,20 @@ cover:
   </tbody>
 </table>
 
-<figure class="wp-block-image aligncenter size-large"><img alt="Chinese X79/X99 motherboard bundle with Xeon CPU and RAM" class="wp-image-291" loading="lazy" src="https://ardapcblog.wordpress.com/wp-content/uploads/2025/05/image-57.png?w=700" /></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img alt="Huananzhi X99-F8 motherboard, Intel Xeon processor and four DDR4 ECC RAM sticks" class="wp-image-291" loading="lazy" src="/images/huananzhi-x99-f8-bundle.png" style="width: 520px; height: auto;" /><figcaption>Huananzhi X99-F8 With Intel Xeon processor (used or salvaged) and 4x DDR4 ECC Ram Bundle</figcaption></figure>
+
+<h2 class="wp-block-heading" id="personal-experience">My Personal Experience with These Chinese Motherboards and Bundles</h2>
+
+<p>I have done short military service in Turkey which was 1 month long, since Im a Computer Engineer, in military service they assigned me micro tasks about computers. One day a commander called me and reported me that "A computer freezes and never comes back if no started, everytime 15-20 mins later after boot, can you please take a look at it" and I started inspecting that desktop pc.</p>
+
+<p>I installed hardware inspection apps, first of all installed HwInfo portable, checked sensors and realized that VRM temp was 100C. Checked motherboard from HwInfo Computer Information and relized that motherboard model says Z170 (H110) which means it is a motherboard chip that uses H110 but firmware modified to act like Z170. Shortly this was a no-brand Chinese motherboard, that fails to cool the VRM and cause freeze after 15-20 minutes of daily use (Google Chrome surfing, Word processing tasks...). CPU was Core I7 6700 which may require a fine VRM to be handled... So means that VRM is insufficient for that CPU, fails and overheats. Opened up the case and it got no any brand on it just writes H110 (Z170), some serial number (again no brand). Probably it was one of the cheapest models of Huananzhi or Machinist, selling as OEM (without no brand) on it.</p>
+
+<figure class="wp-block-image aligncenter size-large">
+  <img alt="Unbranded H110 motherboard identified by its firmware as Z170" loading="lazy" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8RhtS5glFu818yDV7g_nM4plxxdiJAILvPrBfFf-HDj20_spQOBRF0rEhRgxqyCVoUYC4oJai6p5ltOg6n10L93B6k7XiwtendonLIhZ6X_FjsPZuBYAem8Eaq1yE9j0oEhjgjpwyHm9NVYjLGFI5rcZpQ7DUXXqfvsT9Gt8qemZOyXRC4JsgYg7Md4Y/s1600/image.png" />
+  <figcaption>OEM H110 Firmwarely labelled as Z170. Probably OEM version of Huananzhi, Machinist etc... Some brands get this as OEM, rebrand it, sale as a Brand New part, or build pc then sell is as prebuilt pc.</figcaption>
+</figure>
+
+<p>The computer was prebuilt computers that selling online for really cheap prices. Another computer engineer friend said "there is nothing we can do, nevermind...".</p>
 
 <h2 class="wp-block-heading" id="verdict">🏁 <strong>Verdict: Are They Worth It?</strong></h2>
 
