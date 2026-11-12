@@ -4,7 +4,7 @@ draft = false
 title = 'Is KMSpico a Virus? Risks, Malware and What You Should Know'
 description = 'Is KMSpico a virus? Learn why Windows Defender detects unofficial activation tools, how modified downloads can contain malware, and what security steps to take.'
 slug = 'is-kmspico-a-virus'
-tags = ['KMSpico', 'Windows Activation', 'Malware', 'Windows Security', 'Software']
+tags = ['Guides', 'Windows', 'KMSpico', 'Windows Activation', 'Malware', 'Windows Security', 'Software']
 categories = ['Software & Security']
 
 [cover]

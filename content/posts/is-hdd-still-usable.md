@@ -2,6 +2,7 @@
 title: "Is HDD Still Usable in 2026? Gaming and Storage Status"
 date: 2026-11-06T15:20:00+03:00
 draft: false
+tags: ["Guides", "PC Hardware", "Storage", "Hard Drives", "HDD", "Gaming"]
 cover:
   image: "images/hddwd.jpg"
 ---

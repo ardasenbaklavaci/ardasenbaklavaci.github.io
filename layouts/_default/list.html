@@ -44,6 +44,14 @@
     {{- .Date.Format "2 January 2006" -}}
   </footer>
 
+  {{- with (.GetTerms "tags") }}
+  <ul class="post-tags entry-tags" aria-label="Post tags">
+    {{- range first 3 . }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{- end }}
+  </ul>
+  {{- end }}
+
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
 {{- end }}

@@ -2,6 +2,7 @@
 title: "Is It Safe to Use Old Power Supplies (PSU) in New Systems?"
 date: 2026-11-06T15:30:00+03:00
 draft: false
+tags: ["Guides", "PC Hardware", "PC Building", "Power Supplies", "PSU Safety"]
 cover:
   image: "images/psu.jpg"
 ---
