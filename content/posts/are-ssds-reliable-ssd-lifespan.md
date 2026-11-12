@@ -21,7 +21,7 @@ But is this really true for todays modern SSDs?
 
 In this article, we will explore SSD lifespan, endurance ratings, Terabytes Written (TBW), hard drives reliabilities, and the factors that affect SSD longevity. Ways to maintain SSD health and protect your important data from lose...
 
-![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPMxIoHSCIZslF1jWDp8SFO2sKYmPRGtdUCcicn4G93I8U-puD3Tm_LodchH0VwVK5CMBRe8JB7gtJNkZr-Harz7aG94iigTCsIl6usTnU7Y-3eJwCxhuaz0CiEZtNsy5GcXUr4jR2pdXqzWlXkbF65POJVuPWK-FcegfV2xPXYdJFjlxg_3uG0VkQ/s600/wdblu.jpg) ([image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPMxIoHSCIZslF1jWDp8SFO2sKYmPRGtdUCcicn4G93I8U-puD3Tm_LodchH0VwVK5CMBRe8JB7gtJNkZr-Harz7aG94iigTCsIl6usTnU7Y-3eJwCxhuaz0CiEZtNsy5GcXUr4jR2pdXqzWlXkbF65POJVuPWK-FcegfV2xPXYdJFjlxg_3uG0VkQ/s320/wdblu.jpg))
+![image](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPMxIoHSCIZslF1jWDp8SFO2sKYmPRGtdUCcicn4G93I8U-puD3Tm_LodchH0VwVK5CMBRe8JB7gtJNkZr-Harz7aG94iigTCsIl6usTnU7Y-3eJwCxhuaz0CiEZtNsy5GcXUr4jR2pdXqzWlXkbF65POJVuPWK-FcegfV2xPXYdJFjlxg_3uG0VkQ/s600/wdblu.jpg)
 
 ## Understanding SSD Lifespan
 
