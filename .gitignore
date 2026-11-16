@@ -1,0 +1,21 @@
+# Hugo build output
+/public/
+/resources/
+
+# Hugo build cache
+.hugo_build.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+.build-check/
+dist/
