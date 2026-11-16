@@ -43,3 +43,19 @@ enableRobotsTXT = true
 [outputs]
   home = ["HTML", "RSS", "JSON", "CustomXML"]
   section = ["HTML"]
+
+# Keep taxonomy listing pages (tags/categories) and their terms out of the index
+# so crawl budget goes to posts and regular pages.
+[[cascade]]
+  robotsNoIndex = true
+  [cascade._target]
+    kind = "taxonomy"
+  [cascade.sitemap]
+    disable = true
+
+[[cascade]]
+  robotsNoIndex = true
+  [cascade._target]
+    kind = "term"
+  [cascade.sitemap]
+    disable = true
