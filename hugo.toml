@@ -1,5 +1,5 @@
 
-baseURL = "https://ardasenbaklavaci.github.io/"
+baseURL = "https://ardasenbaklavaci-blog.vercel.app/"
 locale = "tr"
 title = "Enthusiast PC Blog"
 theme = "PaperMod"
