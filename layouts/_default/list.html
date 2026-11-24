@@ -63,7 +63,7 @@
     <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« Önceki Sayfa</a>
     {{- end }}
     {{- if $paginator.HasNext }}
-    <a class="next" href="{{ $paginator.HasNext.URL | absURL }}">Sonraki Sayfa »</a>
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">Sonraki Sayfa »</a>
     {{- end }}
   </nav>
 </footer>
