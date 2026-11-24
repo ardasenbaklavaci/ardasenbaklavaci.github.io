@@ -1,0 +1,9 @@
+{{- $zone := .zone -}}
+{{- $class := .class | default "ad-slot" -}}
+<div class="{{ $class }}" data-ad-zone="{{ $zone }}">
+<script type="text/javascript">
+aclib.runBanner({
+zoneId: '{{ $zone }}',
+});
+</script>
+</div>

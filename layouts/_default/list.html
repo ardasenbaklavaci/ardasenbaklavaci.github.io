@@ -6,6 +6,10 @@
 </div>
 {{- end }}
 
+{{- /* Adcash: leaderboard */ -}}
+{{- partial "adcash-banner.html" (dict "zone" "12489078" "class" "ad-slot ad-slot--top ad-slot--wide") }}
+{{- partial "adcash-banner.html" (dict "zone" "12489122" "class" "ad-slot ad-slot--top ad-slot--narrow") }}
+
 {{- $pages := union .RegularPages .Sections }}
 {{- if .IsHome }}
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}

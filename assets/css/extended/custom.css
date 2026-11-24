@@ -200,3 +200,38 @@
         margin: 0 0 2rem;
     }
 }
+
+/* Adcash banner slots */
+.ad-slot {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 1.5rem auto;
+    overflow: hidden;
+}
+
+.ad-slot--top {
+    margin: 0 auto 1.75rem;
+}
+
+.ad-slot--inline {
+    margin: 1.75rem auto;
+}
+
+.ad-slot--sidebar {
+    margin: 0 0 1rem;
+}
+
+.ad-slot--narrow {
+    display: none;
+}
+
+@media (max-width: 820px) {
+    .ad-slot--wide {
+        display: none;
+    }
+
+    .ad-slot--narrow {
+        display: flex;
+    }
+}

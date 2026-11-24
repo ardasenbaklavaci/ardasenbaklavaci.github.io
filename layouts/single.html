@@ -38,6 +38,10 @@
     {{- partial "toc.html" . }}
     {{- end }}
 
+{{- /* Adcash: leaderboard */ -}}
+    {{- partial "adcash-banner.html" (dict "zone" "12489078" "class" "ad-slot ad-slot--top ad-slot--wide") }}
+    {{- partial "adcash-banner.html" (dict "zone" "12489122" "class" "ad-slot ad-slot--top ad-slot--narrow") }}
+
     {{- if .Content }}
     <div class="post-content md-content">
       {{- if not (.Param "disableAnchoredHeadings") }}
@@ -45,6 +49,9 @@
       {{- else }}{{ .Content }}{{ end }}
     </div>
     {{- end }}
+
+    {{- /* Adcash: in-article rectangle */ -}}
+    {{- partial "adcash-banner.html" (dict "zone" "12489106" "class" "ad-slot ad-slot--inline") }}
 
     {{- partial "extend_post_content.html" . }}
 
@@ -73,6 +80,8 @@
     <div class="post-sidebar-heading">
       <h2>More posts</h2>
     </div>
+    {{- /* Adcash: sidebar skyscraper */ -}}
+    {{- partial "adcash-banner.html" (dict "zone" "12489114" "class" "ad-slot ad-slot--sidebar") }}
     <ul>
       {{- range $posts }}
       <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
